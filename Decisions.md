@@ -34,3 +34,29 @@
 ---
 
 Also you have to intall CUDA and pytorch right now also install CUDA for deeplearning Search exactly
+
+4. **What has been done till now**
+using sentence-transformers we were able to chage the SQL database into something that whenever it receives an answer it converts it into verctor embeddings +it sotres the answers, the question and a unique I number,.
+
+)
+
+**Pipeline To-Do List**
+ Show the code snippet in the UI
+
+ Take user's input in plain text
+
+ Convert user input into an embedding
+
+ Compare it with original answer embedding
+
+ Use cosine similarity to get a score
+
+**Then:**
+
+ Auto-pull code snippets from GitHub using GitHub API
+
+ Use AI (like Mistral or StarCoder) to auto-generate the expected answer
+
+That way I don’t have to write every answer manually
+
+And the model itself can understand & compare in natural language
